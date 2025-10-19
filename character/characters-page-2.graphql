@@ -1,11 +1,5 @@
-query GetAllCharactersPage2 {
+query {
   characters(page: 2) {
-    info {
-      pages
-      next
-      prev
-      count
-    }
     results {
       id
       name

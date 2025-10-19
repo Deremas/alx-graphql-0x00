@@ -1,4 +1,4 @@
-query GetCharacterID4 {
+query {
   character(id: 4) {
     id
     name
